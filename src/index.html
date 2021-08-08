@@ -1,140 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+		<title>Rupesh Garhwal | Portfolio</title>
 
-  <title>Rupesh Garhwal | Portfolio</title>
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+			}
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+				}
+			}
+		</style>
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-</head>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<body>
-  <!-- header -->
-  <header>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
-          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+	<body>
+		<!-- header -->
+		<header>
+			<!-- navbar -->
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarsExample08"
+						aria-controls="navbarsExample08"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Centered nav only</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown"
-                aria-expanded="false">Dropdown</a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown08">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+					<div class="collapse navbar-collapse justify-content-md-center fixed" 	id="navbarsExample08">
+						<ul class="navbar-nav">
+							<li class="nav-item px-5">
+								<a class="nav-link active" aria-current="page" href="#Home"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item px-5">
+								<a class="nav-link" href="#About">About</a>
+							</li>
+							<li class="nav-item px-5">
+								<a class="nav-link" href="#Resume">Resume</a>
+							</li>
+							<li class="nav-item px-5">
+								<a class="nav-link" href="#Project">Projects</a>
+							</li>
+							<li class="nav-item px-5">
+								<a class="nav-link" href="#Contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-  <main>
-    <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4" src="bootstrap-logo.svg" alt="" width="72" height="57" />
-      <h1 class="display-5 fw-bold">Centered hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world’s most popular front-end open source toolkit,
-          featuring Sass variables and mixins, responsive grid system,
-          extensive prebuilt components, and powerful JavaScript plugins.
-        </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-            Primary button
-          </button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            Secondary
-          </button>
-        </div>
-      </div>
-    </div>
 
-    <div class="b-example-divider"></div>
-  </main>
+		<main id="Home">
+			<div class="px-4 py-5 my-5 text-center hero-container">
+				<h1 class="name-main">Rupesh Garhwal</h1>
+				<div class="col-lg-6 mx-auto">
+					<p class="lead mb-4 subtitle-main">
+						Aspiring Software Developer | Competitive Programmer
+					</p>
+					<div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
+						<div class="btn-custom rounded-pill px-4 py-2" id="contact-btn">
+							Contact Me
+						</div>
+						<div class="btn-custom rounded-pill px-4 py-2" id="cv-btn">
+							Download CV
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-  <div class="container marketing">
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider" />
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">
-          Oh yeah, it’s that good.
-          <span class="text-muted">See for yourself.</span>
-        </h2>
-        <p class="lead">
-          Another featurette? Of course. More placeholder content here to give
-          you an idea of how this layout would work with some actual
-          real-world content in place.
-        </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="
+		<div class="container" id="About">
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading">
+						Oh yeah, it’s that good.
+						<span class="text-muted">See for yourself.</span>
+					</h2>
+					<p class="lead">
+						Another featurette? Of course. More placeholder content here to give
+						you an idea of how this layout would work with some actual
+						real-world content in place.
+					</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<svg
+						class="
 							bd-placeholder-img bd-placeholder-img-lg
 							featurette-image
 							img-fluid
 							mx-auto
-						" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#eee" />
-          <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-      </div>
-    </div>
+						"
+						width="500"
+						height="500"
+						xmlns="http://www.w3.org/2000/svg"
+						role="img"
+						aria-label="Placeholder: 500x500"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+					>
+						<title>Placeholder</title>
+						<rect width="100%" height="100%" fill="#eee" />
+						<text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+					</svg>
+				</div>
+			</div>
 
-    <hr class="featurette-divider" />
+			<hr class="featurette-divider" />
 
-    <!-- /END THE FEATURETTES -->
-  </div>
-  <!-- /.container -->
+			<!-- /END THE FEATURETTES -->
+		</div>
+		<!-- /.container -->
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</body>
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
 
+		<!-- jQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+
+		<script src="script.js"></script>
+	</body>
 </html>

@@ -1,11 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Satisfy&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
+	background-color: #101010;
+	color: white;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
 }
 
 .navbar {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.nav-bg{
+	background-color: #161616;
+}
+
+main {
+	min-height: 100vh;
+	position: relative;
+	background-color: #101010;
+	color: white;
+	background-image: url("background.webp");
+	background-attachment: fixed;
+}
+
+.hero-container {
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-40%);
+}
+
+.name-main {
+	font-size: 64px;
+	font-weight: 500;
+	font-family: "Satisfy", serif;
+	line-height: 1.5;
+}
+
+.subtitle-main {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+}
+
+#contact-btn {
+	background-color: #009e66;
+	cursor: pointer;
+	font-weight: 500;
+	transition: color 1s ease-out;
+}
+
+#contact-btn:hover {
+	color: black;
+}
+
+#cv-btn {
+	cursor: pointer;
+	border: 2px solid #009e66;
+	color: white;
+	font-weight: 500;
+	background: linear-gradient(to right, #009e66 50%, rgba(0, 0, 0, 0) 50%);
+	/* background: linear-gradient(to right, #009e66 50%, #161616 50%); */
+	background-size: 300% 100%;
+	background-position: right bottom;
+	transition: all 0.5s ease-out;
+}
+
+#cv-btn:hover {
+	color: black;
+	background-position: left bottom;
+}
+
+#About{
+	min-height: 200vh;
 }
 
 @media (min-width: 992px) {
-  .rounded-lg-3 { border-radius: .3rem; }
+	.rounded-lg-3 {
+		border-radius: 0.3rem;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar{
+		background-color: #161616;
+	}
 }
