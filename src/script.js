@@ -12,5 +12,6 @@ $(document).ready(function () {
 	console.log($(window).width());
 	if ($(window).width() < 992) {
 		$(".navbar").removeClass("fixed-top");
+		$(".navbar").css("margin-bottom", "0");
 	}
 });
