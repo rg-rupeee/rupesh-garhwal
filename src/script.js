@@ -13,5 +13,6 @@ $(document).ready(function () {
 	if ($(window).width() < 992) {
 		$(".navbar").removeClass("fixed-top");
 		$(".navbar").css("margin-bottom", "0");
+		$(".hero-container").css("top", "25%")
 	}
 });
