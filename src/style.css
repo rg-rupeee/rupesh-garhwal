@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Satisfy&display=swap");
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.nav-bg{
+.nav-bg {
 	background-color: #161616;
 }
 
@@ -78,7 +78,23 @@ main {
 	background-position: left bottom;
 }
 
-#About{
+.logos-list {
+	list-style: none;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.hero-logos{
+	color: white;
+	transition: all 0.2s ease-out;
+}
+
+.hero-logos:hover{
+	color: #009e66;
+}
+
+#About {
 	min-height: 200vh;
 }
 
