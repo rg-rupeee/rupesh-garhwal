@@ -5,7 +5,6 @@ html {
 }
 
 body {
-	padding-bottom: 20px;
 	background-color: #101010;
 	color: white;
 	font-weight: 500;
@@ -78,24 +77,49 @@ main {
 	background-position: left bottom;
 }
 
-.logos-list {
+ul {
 	list-style: none;
+}
+
+.logos-list {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
 }
 
-.hero-logos{
+.hero-logos {
 	color: white;
 	transition: all 0.2s ease-out;
 }
 
-.hero-logos:hover{
+.hero-logos:hover {
 	color: #009e66;
 }
 
-#About {
-	min-height: 200vh;
+footer{
+	background-color: #161616;
+}
+
+.footer-container{
+	text-align: center;
+}
+
+.footer-heading{
+	font-size: 44px;
+	font-weight: 500;
+	font-family: "Satisfy", serif;
+}
+
+.footer-logos ul li{
+	display: inline-block;
+}
+
+.scroll-top-logo{
+	color: #009e66;;
+}
+
+.scroll-top-logo:hover{
+	color: #9f9f9f;
 }
 
 @media (min-width: 992px) {
