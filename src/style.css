@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Satisfy&family=Poppins:wght@400;500;600;700;800&display=swap");
 
 html {
 	scroll-behavior: smooth;
@@ -96,29 +96,71 @@ ul {
 	color: #009e66;
 }
 
-footer{
+.title-main {
+	font-family: "Popins", sans-serif;
+	font-weight: 800;
+	font-size: 46px;
+}
+
+.title-sec {
+	font-family: "Popins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.main-hr {
+	width: 75px;
+	border: none;
+	height: 4px; 
+	background-color: #009e66;
+	opacity: 1;
+}
+
+.rupesh-photo{
+	max-width: 500px;
+}
+
+.whomi{
+	font-family: "Popins", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.about-main{
+	font-family: "Popins", sans-serif;
+	font-size: 31px;
+	font-weight: 700;
+}
+
+.about-desc{
+	font-family: "Popins", sans-serif;
+	font-size: 16px;
+}
+
+
+footer {
 	background-color: #161616;
 }
 
-.footer-container{
+.footer-container {
 	text-align: center;
 }
 
-.footer-heading{
+.footer-heading {
 	font-size: 44px;
 	font-weight: 500;
 	font-family: "Satisfy", serif;
 }
 
-.footer-logos ul li{
+.footer-logos ul li {
 	display: inline-block;
 }
 
-.scroll-top-logo{
-	color: #009e66;;
+.scroll-top-logo {
+	color: #009e66;
 }
 
-.scroll-top-logo:hover{
+.scroll-top-logo:hover {
 	color: #9f9f9f;
 }
 
