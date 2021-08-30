@@ -164,6 +164,12 @@ ul {
 	transition: color 1s ease-out;
 }
 
+.hr-abt {
+	height: 4px;
+	background-color: #3d3d3d;
+	opacity: 1;
+}
+
 .cv-btn-2:hover {
 	color: black;
 }
