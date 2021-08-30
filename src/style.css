@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Satisfy&family=Poppins:wght@400;500;600;700;800&display=swap");
 
 html {
 	scroll-behavior: smooth;
@@ -9,6 +9,23 @@ body {
 	color: white;
 	font-weight: 500;
 	font-family: "Raleway", sans-serif;
+}
+
+.clr-1 {
+	color: #009e66;
+}
+
+.clr-2 {
+	color: #9e9e9e;
+}
+
+.link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.link:hover {
+	color: #9e9e9e;
 }
 
 .navbar {
@@ -96,29 +113,90 @@ ul {
 	color: #009e66;
 }
 
-footer{
+.title-main {
+	font-family: "Popins", sans-serif;
+	font-weight: 800;
+	font-size: 46px;
+}
+
+.title-sec {
+	font-family: "Popins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.main-hr {
+	width: 75px;
+	border: none;
+	height: 4px;
+	background-color: #009e66;
+	opacity: 1;
+}
+
+.rupesh-photo {
+	max-width: 500px;
+}
+
+.whomi {
+	font-family: "Popins", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	display: none;
+	color: #009e66;
+}
+
+.about-main {
+	font-family: "Popins", sans-serif;
+	font-size: 31px;
+	font-weight: 700;
+}
+
+.about-desc {
+	font-family: "Popins", sans-serif;
+	font-size: 16px;
+	color: #9e9e9e;
+}
+
+.cv-btn-2 {
+	background-color: #009e66;
+	text-align: center;
+	cursor: pointer;
+	transition: color 1s ease-out;
+}
+
+.hr-abt {
+	height: 4px;
+	background-color: #3d3d3d;
+	opacity: 1;
+}
+
+.cv-btn-2:hover {
+	color: black;
+}
+
+footer {
 	background-color: #161616;
 }
 
-.footer-container{
+.footer-container {
 	text-align: center;
 }
 
-.footer-heading{
+.footer-heading {
 	font-size: 44px;
 	font-weight: 500;
 	font-family: "Satisfy", serif;
 }
 
-.footer-logos ul li{
+.footer-logos ul li {
 	display: inline-block;
 }
 
-.scroll-top-logo{
-	color: #009e66;;
+.scroll-top-logo {
+	color: #009e66;
 }
 
-.scroll-top-logo:hover{
+.scroll-top-logo:hover {
 	color: #9f9f9f;
 }
 
@@ -129,7 +207,13 @@ footer{
 }
 
 @media (max-width: 992px) {
-	/* .navbar{
-		background-color: #161616;
-	} */
+	.whomi {
+		display: block;
+	}
+}
+
+@media (min-width: 1400px) {
+	.whomi {
+		display: block;
+	}
 }
