@@ -201,6 +201,60 @@ footer {
 	color: #9f9f9f;
 }
 
+.form-control {
+	background-color: #161616;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	color: #9e9e9e;
+}
+
+.form-control:focus {
+	background-color: #161616;
+	outline: 0;
+	border-bottom: 2px solid #009e66;
+	box-shadow: none;
+	color: #9e9e9e;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9e9e9e;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #9e9e9e;
+}
+
+.submit-btn{
+	background-color: #009e66;
+	color: white;
+	font: 12px;
+}
+
+.title-contact{
+	font-family: "Popins", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.subt-contact{
+	font-family: "Popins", sans-serif;
+	color: #9e9e9e;
+}
+
+.info-logo{
+	color: #009e66;
+	font-size: 32px;
+}
+
+.info-title{
+	font-weight: 600;
+}
+
+.info-subtitle{
+	color: #9e9e9e;
+}
+
+
 @media (min-width: 992px) {
 	.rounded-lg-3 {
 		border-radius: 0.3rem;
