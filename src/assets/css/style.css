@@ -51,6 +51,10 @@ footer {
 	background-color: var(--secondryblack);
 }
 
+a{
+	text-decoration: none;
+}
+
 .clr-1 {
 	color: var(--primary);
 }
@@ -101,6 +105,7 @@ footer {
 
 #contact-btn {
 	background-color: var(--primary);
+	color: var(--white);
 	cursor: pointer;
 	font-weight: 500;
 	transition: color 1s ease-out;
@@ -190,6 +195,7 @@ footer {
 
 .cv-btn-2 {
 	background-color: var(--primary);
+	color: var(--white);
 	text-align: center;
 	cursor: pointer;
 	transition: color 1s ease-out;
