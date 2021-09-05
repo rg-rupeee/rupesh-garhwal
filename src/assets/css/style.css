@@ -112,7 +112,7 @@ footer {
 
 #cv-btn {
 	cursor: pointer;
-	border: 2px solid --primary;
+	border: 2px solid var(--primary);
 	color: white;
 	font-weight: 500;
 	background: linear-gradient(to right, #009e66 50%, rgba(0, 0, 0, 0) 50%);
