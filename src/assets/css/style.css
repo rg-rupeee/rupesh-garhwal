@@ -211,6 +211,40 @@ a{
 	color: var(--black);
 }
 
+/* RESUME SECTION */
+.rf-1{
+	font-weight: 600;
+	font-size: var(--fs4);
+	color: var(--secondarywhite);
+}
+
+.resume-box{
+	border-left: 2px solid var(--primary);
+	background-color: var(--secondryblack);
+	color: var(--secondarywhite);
+}
+
+.mid-box{
+	border-top: 2px solid var(--bordercol);
+	border-bottom: 2px solid var(--bordercol);
+}
+
+.rt{
+	font-weight: 600;
+	font-size: var(--fs4);
+}
+
+.rst{
+	font-size: var(--fs6);
+	color: var(--secondary);
+	font-style: italic;
+}
+
+.rd{
+	color: var(--secondary);	
+}
+
+
 /* CONTACT SECTION */
 .form-control {
 	background-color: var(--secondryblack);
