@@ -51,7 +51,7 @@ footer {
 	background-color: var(--secondryblack);
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
@@ -212,37 +212,36 @@ a{
 }
 
 /* RESUME SECTION */
-.rf-1{
+.rf-1 {
 	font-weight: 600;
 	font-size: var(--fs4);
 	color: var(--secondarywhite);
 }
 
-.resume-box{
+.resume-box {
 	border-left: 2px solid var(--primary);
 	background-color: var(--secondryblack);
 	color: var(--secondarywhite);
 }
 
-.mid-box{
+.mid-box {
 	border-top: 2px solid var(--bordercol);
 	border-bottom: 2px solid var(--bordercol);
 }
 
-.rt{
+.rt {
 	font-weight: 600;
 	font-size: var(--fs4);
 }
 
-.rst{
+.rst {
 	font-size: var(--fs6);
 	color: var(--secondary);
 }
 
-.rd{
-	color: var(--secondary);	
+.rd {
+	color: var(--secondary);
 }
-
 
 /* CONTACT SECTION */
 .form-control {
@@ -333,9 +332,6 @@ a{
 @media (max-width: 992px) {
 	.whomi {
 		display: block;
-	}
-	.marging-resp{
-		padding: 0px;
 	}
 }
 
