@@ -334,6 +334,9 @@ a{
 	.whomi {
 		display: block;
 	}
+	.marging-resp{
+		padding: 0px;
+	}
 }
 
 @media (min-width: 1400px) {
