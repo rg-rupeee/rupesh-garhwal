@@ -231,7 +231,7 @@ a {
 
 .rt {
 	font-weight: 600;
-	font-size: var(--fs4);
+	font-size: var(--fs6);
 }
 
 .rst {
@@ -241,6 +241,17 @@ a {
 
 .rd {
 	color: var(--secondary);
+}
+
+.skill-name{
+	color: var(--secondary);
+	font-size: var(--fs6);
+}
+
+.progress-bar{
+	background-color: var(--primary);
+	color: var(--black);
+	font-weight: 600;
 }
 
 /* CONTACT SECTION */
