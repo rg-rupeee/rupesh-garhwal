@@ -237,7 +237,6 @@ a{
 .rst{
 	font-size: var(--fs6);
 	color: var(--secondary);
-	font-style: italic;
 }
 
 .rd{
