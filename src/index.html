@@ -485,7 +485,15 @@
         <div class="row pt-5">
           <div class="col-lg-8 px-5 py-2">
             <div class="contact-form">
-              <form>
+              <form
+                action="https://formsubmit.co/rupeshgarhwal3920@gmail.com"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Portfolio Contact"
+                />
                 <div class="col-12 title-contact mb-4">Message Me</div>
                 <div class="row">
                   <div class="col-md-6 mt-4">
@@ -494,6 +502,8 @@
                       class="form-control"
                       id="form-name"
                       placeholder="Name"
+                      name="name"
+                      required
                     />
                   </div>
                   <div class="col-md-6 mt-4">
@@ -502,16 +512,19 @@
                       class="form-control"
                       id="form-email"
                       placeholder="Email"
+                      name="email"
+                      required
                     />
                   </div>
                 </div>
-
                 <div class="col-12 my-4">
                   <input
                     type="text"
                     class="form-control"
                     id="form-subject"
                     placeholder="Subject"
+                    name="subject"
+                    required
                   />
                 </div>
                 <div class="cok-12 my-4">
@@ -519,6 +532,8 @@
                     class="form-control"
                     id="form-message"
                     placeholder="Message"
+                    name="message"
+                    required
                   ></textarea>
                 </div>
                 <button
